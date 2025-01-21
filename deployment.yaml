@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ${{ secrets.image_name }}
+        image: nginx:latest
         ports:
         - containerPort: 80
 
